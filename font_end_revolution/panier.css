@@ -1,0 +1,88 @@
+/***page panier **/
+
+.panier_content
+{
+    padding: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.panier_card
+{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.en_tete 
+{
+    border-bottom: 2px black solid;
+}
+
+.en_tete .col
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ligne
+{
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px black solid;
+}
+
+.ligne .col
+{
+    text-align: center;
+    width: 100%;
+}
+
+.btn_cmd a
+{
+    color: black;
+    font-weight: bold;
+    background-color: rgba(206, 187, 44, 0.811);
+    padding: 12px 8%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.total
+{
+    align-items: center;
+    text-align: right;
+    padding: 1.5rem;
+}
+
+.total span
+{
+    font-weight: bold;
+}
+
+.select
+{
+   width: 100%;
+   height: 38px;
+   outline: none
+   ;
+   
+}
+
+.select:focus
+{
+    border: 2.5px rgba(237, 219, 83, 0.811) solid;
+}
+
+
+.form_line
+{
+    padding: 10px;
+}
+
+.form_line label
+{
+    margin-bottom: 5px;
+}
